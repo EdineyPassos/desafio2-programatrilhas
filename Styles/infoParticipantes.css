@@ -1,0 +1,387 @@
+*{
+    margin: 0px;
+    border: 0px;
+}
+
+.header{
+    background-color: #2135A6;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap: 33%; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.home{
+    color: #FFFFFF;
+    height: 50px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+.home:hover{
+    color: #2135A6;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: 3px solid blueviolet;
+    border-radius: 8px;
+}
+
+.corpo{
+    background-color: white; /* branco de fundo */
+    height: 1600px;
+    width: 1350px;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    height: 1500px;
+    width: 1320px;
+    padding: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 528px;
+    height: 1200px;
+    padding: 70px;
+    gap: 48px;
+    background-color: #FFFFFF;
+    border: 5px solid #2135A6;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+   
+}
+
+.seta{
+    height: 24px;
+    width: 24px;
+}
+
+.Fvolta{
+    height: 24px;
+    width: 48px;
+    color: #57534E;
+}
+
+.voltar:hover{
+    color: #2135A6;
+    background-color: #FFFFFF;
+    text-decoration: none;
+    border: 5px solid blueviolet;
+    border-radius: 8px;
+}
+
+.voltar{
+    height: 24px;
+    width: 80px;
+    gap: 8px;
+    display: flex;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabecario{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.Textocabecario{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.paragrafoDoCabecario{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.perguntas{
+    display: flex;
+    flex-direction: column; 
+    background-color: #FFFFFF;
+    gap: 24px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.titlesDoForms{
+    color: #D6D3D1;
+}
+
+.dadosCol{
+    color: #57534E;
+}
+
+#nome {
+    height: 48px;
+    width:528px;
+    border: 2px solid #D6D3D1; /* Borda vermelha */
+    border-radius: 8px; /* Borda arredondada */
+    outline: none; /* Remove a borda azul padrão ao focar */
+}
+  
+#nome:focus {
+    border-color: #F3541C; /* Tom mais escuro ao focar */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.75); /* Brilho ao redor */
+}
+
+#nascimento{
+    background-color: #FFFFFF;
+    width:528px;
+    height: 48px;
+    border: 2px solid #D6D3D1; /* Borda vermelha */
+    border-radius: 8px; /* Borda arredondada */
+    outline: none; /* Remove a borda azul padrão ao focar */
+}
+  
+#nascimento:focus {
+    border-color: #F3541C; /* Tom mais escuro ao focar */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.75); /* Brilho ao redor */
+}
+
+#CPF{
+    background-color: #FFFFFF;
+    width: 528px;
+    height: 48px;
+    border: 2px solid #D6D3D1; /* Borda vermelha */
+    border-radius: 8px; /* Borda arredondada */
+    outline: none; /* Remove a borda azul padrão ao focar */
+}
+  
+#CPF:focus {
+    border-color: #F3541C; /* Tom mais escuro ao focar */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.75); /* Brilho ao redor */
+}
+
+#sexo{
+    background-color: #FFFFFF;
+    width:528px;
+    height: 48px;
+    border: 2px solid #D6D3D1; /* Borda vermelha */
+    border-radius: 8px; /* Borda arredondada */
+    outline: none; /* Remove a borda azul padrão ao focar */
+}
+  
+#sexo:focus {
+    border-color: #F3541C; /* Tom mais escuro ao focar */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.75); /* Brilho ao redor */
+}
+
+#email{
+    background-color: #FFFFFF;
+    width:528px;
+    height: 48px;
+    border: 2px solid #D6D3D1; /* Borda vermelha */
+    border-radius: 8px; /* Borda arredondada */
+    outline: none; /* Remove a borda azul padrão ao focar */
+}
+  
+#email:focus {
+    border-color: #F3541C; /* Tom mais escuro ao focar */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.75); /* Brilho ao redor */
+}
+
+#telefone{
+    background-color: #FFFFFF;
+    width:528px;
+    height: 48px;
+    border: 2px solid #D6D3D1; /* Borda vermelha */
+    border-radius: 8px; /* Borda arredondada */
+    outline: none; /* Remove a borda azul padrão ao focar */
+}
+  
+#telefone:focus {
+    border-color: #F3541C; /* Tom mais escuro ao focar */
+    box-shadow: 0 0 5px rgba(255, 107, 107, 0.75); /* Brilho ao redor */
+}
+
+.caixaComp{
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 48px;
+    border: 1px solid #D6D3D1;
+    border-radius: 8px;
+}
+
+.box {
+    width: 528px;
+    height: 160px;
+    border: 2px dashed #D6D3D1;;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    background-color: #fff;
+    transition: border-color 0.3s;
+    text-align: center;
+}
+
+.box:hover {
+    border-color: #F3541C;
+}
+
+.boximg {
+    height: 48px;
+    width: 48px;
+    opacity: 0.5;
+}
+
+.boxspan {
+    font-size: 14px;
+    color: #666;
+    margin-top: 8px;
+}
+
+
+.caixaComp{
+    display: none;
+} 
+
+/*botão ida e volta*/
+.navegar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.botao{
+    background-color: #2135A6;
+    height: 50px;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid #D6D3D1;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    
+}
+
+
+.titlesDoNav{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.botao:hover {
+    border-color: #2135A6;
+    background-color: #FFFFFF;
+}
+
+.botao:hover .titlesDoNav{
+    color: #2135A6;
+    text-decoration: none;
+}
+
+/*logo lateral do formulario*/
+.logoLateral{
+    background-color: #2135A6; /* Azul de fundo */
+    height: 832px;
+    width: 624px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #2135A6;
+    border-radius: 8px;
+    /* gap: 20px; */
+    
+}
+.imagems{
+    /*background-color: #2135A6; /* Azul de fundo */*/
+    height: 600x;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.corpoFormsELogo{
+    background-color: white; /* branco de fundo */
+    height: 1400px;
+    width: 1320px; 
+    display: flex;
+}
+
+.imagem-principal {
+    max-width: 80%; /* Ajusta o tamanho sem perder qualidade */
+    height: 500px;
+    width: 500px;
+}
+
+.foot{
+    background-color: #2135A6;
+    height: 100px;
+    width: 1350px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.redeSymb{
+    height: 20px;
+    width: 20px;
+}
+
+.linksFoot{
+    color: #FFFFFF;
+    height: 10px;
+    width: 70px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    gap: 5px;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.linksFoot:hover{
+    background-color: #FFFFFF;
+    text-decoration: none;
+    text-decoration-color: ;
+    border: 3px solid;
+    border-radius: 8px;
+}
+
+
+.linksFoot:hover a {
+    color: #2135A6; /* Muda a cor do texto ao passar o mouse */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+
+

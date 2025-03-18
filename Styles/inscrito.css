@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    /* background: linear-gradient(to right, #2C2F7F, #5C4CB5); */
+    background-image: url('../inicioImagens/Capa.png');
+    background-size: cover; /* Ajusta a imagem para cobrir toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Garantir que ocupa apenas a altura da tela */
+    overflow: hidden; /* Impede qualquer rolagem */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    max-width: 100vw;
+}
+
+.logo__container {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.logo__centro {
+    width: 570px;
+    max-width: 80%;
+}
+
+.logo__container h2{
+    color: white ;
+    font-family: "Tektur", sans-serif;
+    font-size: 20px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+.logo__container video{
+    width: 200px;
+    height: 200px;
+}
+
+.logo__container h1{
+    color: white ;
+    font-family: "Tektur", sans-serif;
+    font-size: 50px;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.desafio2 {
+    padding: 0;
+    width: 180px; 
+    margin-top: 10px; 
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.inicioNav{
+    background-color:linear-gradient(to right, #2C2F7F, #5C4CB5);
+    margin-top: 30px;
+    padding: 0;
+    width: 180px; 
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; 
+    border: 4px solid #9f94de;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.inicio{
+    color: #d7d0ff;
+    width: 100%; 
+    text-decoration: none;
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+.inicioNav:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.inicioNav:active {
+    opacity: 0.6;
+    transform: scale(0.95);
+}
+
+.img1, .img6 {
+    position: absolute;
+    max-width: 50%;
+}
+.faixaBranca{
+    position: absolute;
+    max-width: 50%;
+    top: 0%;
+    left: -5%;
+}
+
+.img1 {
+    top: 0%;
+    left: -5%;
+}
+
+.img6 {
+    top: 5%;
+    right: -5%;
+}
+
+.faixaBrancainf{
+    position: absolute;
+    max-width: 50%;
+    top: 5%;
+    right: -5%;
+}
+
+.bola {
+    width: 14%;
+    position: absolute;
+    bottom: 10%;
+    left: 12%;
+}
+
+.chave {
+    width: 18%;
+    position: absolute;
+    top: 12%;
+    right: 10%;
+}
+
+@media (max-width: 768px) {
+    .logo__centro {
+        width: 150px;
+}
+}
